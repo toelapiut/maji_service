@@ -1,0 +1,8 @@
+#show-price {
+  display: none;
+}
+#googleMap{
+  border: solid #eaeff7;
+  border-width: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
