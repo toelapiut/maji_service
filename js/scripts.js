@@ -1,4 +1,5 @@
-// //busines logic
+//price calc section
+//busines logic
 function Price(litre, time) {
   this.litre= litre;
   this.time = time;
@@ -22,3 +23,23 @@ $(document).ready(function() {
   });
 
 });
+
+// end price calc
+
+
+// map section
+
+//function to set map properties
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(-1.3005320,36.7845840),
+    zoom:10, //zoom level specifies the zoom level for the map
+};
+//this creates a new map inside the div with id googlemap using the parameters that are passed through the function
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker=new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+
+}
+
+// end of map section
