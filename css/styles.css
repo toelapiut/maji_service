@@ -1,0 +1,23 @@
+/* Beginning of header */
+html, body {
+  font-family: 'Pangolin', cursive;
+  height: 100%;
+}
+nav a {
+  text-decoration: inherit;
+  margin-left: 30px;
+  line-height: 50px;
+}
+/* End of header */
+/* start of sign up styles*/
+h1#credentials{
+font-style: italic;
+border-radius: 25px;
+}
+#button{
+  text-align: center;
+}
+container-fluid{
+  text-align: center;
+}
+/* end of sign up styles */
