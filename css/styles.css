@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 /*apiuts section dont touch*/
@@ -215,3 +216,55 @@ nav a p {
 
 /* Do NOT touch */
 >>>>>>> b6f6da8ea51675d292f0c53a52d232793c6504a4
+=======
+/*Beginning of help css*/
+.help{
+  border: 1px solid grey;
+}
+.help-header{
+background:linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+.Help-center{
+  color: white;
+  float: left;
+}
+.help-body{
+background-color: white;
+}
+.search{
+  width:100%;
+  padding: 20px;
+}
+.search-bar{
+  padding:15%;
+  text-align: center;
+  color: white;
+}
+.search-button {
+  border: none;
+  background-color:#00ff00;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+}
+.fa {
+    text-align: center;
+    text-decoration: none;
+    color: green;
+}
+.col-container {
+    display: table;
+    width: 100%;
+    padding:20px;
+}
+
+.col {
+    display: table-cell;
+    width: 25%;
+    height: 100%;
+    margin: 20px;
+    padding-left: 10px;
+}
+/*End of help/
+>>>>>>> help
