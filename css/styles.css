@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 /*apiuts section dont touch*/
@@ -55,3 +56,162 @@
 }
 
 /*apiuts section end*/
+=======
+/* Beginning of header */
+
+
+/* Do NOT touch */
+
+* {
+  margin: 0px;
+}
+
+html, body {
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+  color: #34373a;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 20px;
+}
+
+nav {}
+
+nav a p {
+  text-decoration: inherit;
+  margin-left: 30px;
+  line-height: 50px;
+}
+.navbar-custom a {
+  color: grey;
+  text-decoration: inherit;
+}
+
+#logo {
+  width: 30px;
+  height: 30px;
+  text-align: left;
+}
+
+#welcome {
+  padding-left: 10%;
+  margin: 10px;
+}
+
+#about {
+  margin-top: 20%;
+  background-color: white;
+  height: 50%;
+  width: auto;
+  opacity: ;
+}
+
+#aboutcolumn {
+  margin-bottom: 5%;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+#about p {
+  text-align: justify;
+}
+
+#estimate {
+  margin-top: 25%;
+}
+
+#estimado {
+  text-decoration: none;
+  text-decoration-style: wavy;
+  margin-left: 30px;
+  line-height: 50px;
+  font-size: 22px;
+}
+
+.section {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sectOne {
+  padding: 5%;
+  background-image: url('../image/background8.jpg');
+  height: 700px;
+}
+
+.sectTwo {
+  padding: 5%;
+  background-image: url('../image/background3.jpg');
+}
+
+#truck {
+  padding-left: 40%;
+}
+
+#about:hover {
+  transition: rotateX(90deg);
+}
+
+#handshake {
+  padding-left: 40%;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: #34373a;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 300px;
+  margin-left: 300px;
+}
+
+@media (max-width: 600px) {
+  .button{
+    margin: 40%;
+  }
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* End of header */
+
+
+/* Do NOT touch */
+>>>>>>> b6f6da8ea51675d292f0c53a52d232793c6504a4
