@@ -1,23 +1,70 @@
 /* Beginning of header */
+
 html, body {
   font-family: 'Pangolin', cursive;
   height: 100%;
 }
+
 nav a {
   text-decoration: inherit;
   margin-left: 30px;
   line-height: 50px;
 }
+
+#divide {
+  background-image: url("../image/ant-rozetsky-226345.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#signup .input-group{
+  width:70%;
+  margin-left: 10%;
+  margin-right: 0;
+}
+#signup{
+  background:rgba(255,255,255, 0.9);
+  border-radius: 5%;
+  padding-bottom:5%;
+  padding-top: 1%;
+  margin-left:5%;
+  margin-right:15%;
+  padding-right:2%;
+  padding-left: 0%;
+}
+p#quote{
+  font-size: 150%;
+  font-family:monospace;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 60%;
+    background: rgba(255,255,255, 0.3);
+    padding: 15%;
+    width: 70%;
+    height: 200%;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+
+
+
 /* End of header */
+
+
 /* start of sign up styles*/
-h1#credentials{
-font-style: italic;
-border-radius: 25px;
+
+h1#credentials {
+  font-style: italic;
+  border-radius: 25px;
 }
-#button{
+
+#button {
   text-align: center;
 }
-container-fluid{
+
+container-fluid {
   text-align: center;
 }
+
+
 /* end of sign up styles */
