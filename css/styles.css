@@ -10,6 +10,7 @@
 html, body {
   font-family: 'Raleway', sans-serif;
   height: 100%;
+  color: #34373a;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -22,6 +23,10 @@ nav a p {
   text-decoration: inherit;
   margin-left: 30px;
   line-height: 50px;
+}
+.navbar-custom a {
+  color: grey;
+  text-decoration: inherit;
 }
 
 #logo {
@@ -60,6 +65,25 @@ nav a p {
   margin-left: 30px;
   line-height: 50px;
   font-size: 22px;
+}
+
+.section {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sectOne {
+  padding: 5%;
+  background-image: url('../image/test1.jpg');
+}
+
+#truck {
+  padding-left: 40%;
+}
+
+#handshake {
+  padding-left: 40%;
 }
 
 /* End of header */
