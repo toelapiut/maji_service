@@ -13,17 +13,7 @@
     background-color:#feda88;
     background-repeat: no-repeat;
 }
-#map{
-    height: 300px;
-    width: 300px;
-    background:url('Map.jpg');
-    background-size: 100% 100%;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-     -webkit-clip-path:polygon(59% 33%, 100% 50%, 50% 100%, 0% 50%);
-}
+
 #locator{
     position: absolute;
     top:50%;
@@ -141,13 +131,13 @@ nav a p {
 
 .sectOne {
   padding: 5%;
-  background-image: url('../image/background8.jpg');
+  background-image: url('../image/test2.jpg');
   height: 700px;
 }
 
 .sectTwo {
   padding: 5%;
-  background-image: url('../image/background3.jpg');
+  background-color:	#007FFF;
 }
 
 #truck {

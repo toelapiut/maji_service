@@ -1,3 +1,25 @@
+// header
+$(document).ready(function(){
+   $("#link1").click(function(){
+        $path=$("#box1").offset().top;
+        $('body').animate({scrollTop:$path},1000);
+   });
+   $("#link2").click(function(){
+        $path=$("#box2").offset().top;
+        $('body').animate({scrollTop:$path},1000);
+   });
+   $("#link3").click(function(){
+        $path=$("#box3").offset().top;
+        $('body').animate({scrollTop:$path},1000);
+   });
+   $("#link4").click(function(){
+        $path=$("#box4").offset().top;
+        $('body').animate({scrollTop:$path},1000);
+   });
+});
+// header section
+
+
 //price calc section
 //busines logic
 function Price(litre, time) {
@@ -32,14 +54,9 @@ $(document).ready(function() {
 //function to set map properties
 function myMap() {
 var mapProp= {
-    center:new google.maps.LatLng(-1.3005320,36.7845840),
-    zoom:10, //zoom level specifies the zoom level for the map
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
 };
-//this creates a new map inside the div with id googlemap using the parameters that are passed through the function
 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker=new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-
 }
-
 // end of map section
