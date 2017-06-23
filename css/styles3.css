@@ -1,0 +1,177 @@
+/* Beginning of header index.html*/
+
+
+/*html, body {
+  font-family: 'Pangolin', cursive;
+  height: 100%;
+}*/
+#body {
+  width: auto;
+}
+nav a {
+  text-decoration: inherit;
+  margin-left: 30px;
+  line-height: 50px;
+}
+
+#divide {
+  background-image: url("../image/ant-rozetsky-226345.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#signup .input-group {
+  width: 70%;
+  margin-left: 10%;
+  margin-right: 0;
+}
+
+#signup {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  margin-left: 5%;
+  margin-right: 15%;
+  padding-right: 2%;
+  padding-left: 0%;
+}
+
+p#quote {
+  font-size: 150%;
+  font-family: monospace;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 60%;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15%;
+  width: 70%;
+  height: 200%;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-bottom: 20%;
+}
+
+
+/* End of header */
+
+
+/* start of sign up styles*/
+
+h1#credentials {
+  font-style: italic;
+  border-radius: 25px;
+}
+
+#button {
+  text-align: center;
+}
+
+container-fluid {
+  text-align: center;
+}
+
+
+/* end of sign up styles */
+
+
+/*start of map styles*/
+
+h1#majiestimate {
+  /*text-align: center;*/
+  text-decoration: overline;
+  margin-left: 10%;
+}
+
+#formitems {
+  border-width: 100%;
+  height: 35%;
+  border-style: outset;
+  margin-top: 1%;
+  padding-left: 4%;
+  margin-bottom: 5%;
+  padding-bottom: 2%;
+}
+
+select#locations {
+  width: 353px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 8px;
+  font-family: Cursive;
+  line-height: 1;
+  border-radius: 10px;
+  background-color: #182a47;
+  color: white;
+  font-size: 20px;
+  -webkit-appearance: none;
+  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  outline: none
+}
+
+select#litre {
+  width: 353px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 8px;
+  font-family: Cursive;
+  line-height: 1;
+  border-radius: 10px;
+  background-color: #182a47;
+  color: white;
+  font-size: 20px;
+  -webkit-appearance: none;
+  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+select#time {
+  width: 353px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 8px;
+  font-family: Cursive;
+  line-height: 1;
+  border-radius: 10px;
+  background-color: #182a47;
+  color: white;
+  font-size: 20px;
+  -webkit-appearance: none;
+  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+h3#mapheading {
+  margin-top: 0;
+  padding-top: 2%;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px aqua;
+}
+
+#map {
+  margin-left: 10%;
+  border-style: ridge;
+  border-width: 15px;
+  margin-top: 2%;
+  border-radius: 5%;
+}
+
+.maps {
+  background-color: #182a47;
+}
+
+#show-price {
+  display: none;
+}
+#show-suppliers{
+  display:none;
+}
+.peopledetail{
+  text-align: center;
+}
+.profiles{
+  width:30%;
+  height:20%;
+  border-radius: 100%;
+}

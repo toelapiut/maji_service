@@ -1,0 +1,431 @@
+/* Beginning of header */
+
+
+/* Do NOT touch */
+
+#header {
+  background-image: url('../image/header-background.jpg');
+  height: 550px;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 20%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#logo {
+  width: 30px;
+  height: 30px;
+  text-align: left;
+}
+
+#welcome {
+  text-decoration: none;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  opacity: 0.2%;
+}
+
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 45px;
+  padding: 5px 15px 0px 15px;
+  color: orange;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.cross {
+  background: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  padding: 5px 15px 0px 15px;
+  padding-top: 1.5%;
+  color: orange;
+  border: 0;
+  font-size: 3em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.menu {
+  z-index: 1000000;
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background: orange;
+  opacity: 1;
+  width: 97.5%;
+}
+
+.menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  list-style-image: none;
+  color: white;
+}
+
+.menu li {
+  display: block;
+  padding: 15px 0 15px 0;
+  border-bottom: #dddddd 1px solid;
+}
+
+.menu li:hover {
+  display: block;
+  background: white;
+  padding: 15px 0 15px 0;
+  border-bottom: #dddddd 1px solid;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 0px;
+}
+
+.menu ul li a:hover {
+  text-decoration: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 720px) {
+  #welcome-line {
+    margin-top: 50%;
+  }
+}
+
+header {
+  display: inline-block;
+  font-size: 22px;
+}
+
+span {
+  padding-left: 0px;
+}
+
+#welcome-line {
+  font-size: 32px;
+  font-weight: bold;
+  color: orange;
+  opacity: 1;
+}
+
+#body {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: auto;
+  padding: 0px;
+}
+
+.column1 {
+  border-right: solid;
+}
+
+.column2 {}
+
+.column3 {
+  margin-top: 10px;
+}
+
+.column4 {}
+
+.column5 {
+  margin-top: 10px;
+}
+
+.column6 {}
+
+.column7 {
+  margin-top: 300px;
+}
+
+.column8 {
+  margin-top: 400px;
+}
+
+.text1 {
+  color: white;
+  background: orange;
+  font-size: 32px;
+  font-weight: bold;
+  opacity: 1;
+  height: 200px;
+  margin-top: 75%;
+}
+
+
+/* @media (max-width:700px) {
+  .error {
+    color: white;
+    background: orange;
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+  }
+} */
+
+
+/*#image1{
+  opacity: 0.7;
+  transition: 0.8s;
+}
+
+#image1:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}*/
+
+#image2 {
+  /*opacity: 0.7;*/
+  /*transition: 0.8s;*/
+  margin-left: 51.3%;
+}
+
+
+/*#image2:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}*/
+
+
+/*#image3{
+  opacity: 0.7;
+  transition: 0.8s;
+}
+
+#image3:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}*/
+
+.text2 {
+  color: white;
+  background: orange;
+  font-size: 32px;
+  font-weight: bold;
+  opacity: 1;
+  height: 200px;
+  margin-top: 75%;
+  margin-left: -100%;
+  margin-right: 100%;
+}
+
+#footerimg {
+  margin-left: -40%;
+  margin-right: 40%;
+}
+
+#body {
+  border-style: none solid none solid;
+}
+
+.modal-content {
+  color: black;
+}
+
+#modal1 {
+  width: auto;
+}
+
+
+/* End of header */
+
+
+/* Do NOT touch */
+
+
+/*Beginning of help css*/
+
+.help {
+  margin: 0px;
+  padding: 0px;
+}
+
+.help {
+  color: white;
+  font-family: verdana;
+  margin-top: 200px;
+  padding: 20px;
+  width: 100%;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition: .5s;
+}
+
+.help:after {
+  content: '';
+  width: 0px;
+  height: 120%;
+  position: absolute;
+  left: -10%;
+  bottom: 0;
+  background-color: white;
+  transform: skewX(15deg);
+  z-index: -1;
+  transition: .5s;
+}
+
+.help:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.help:hover:after {
+  left: -10%;
+  width: 120%;
+}
+
+.col-container {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+
+.search-bar {
+  margin-left: 35%;
+  width: 25%;
+}
+
+.Help-center {
+  padding-top: 30px;
+}
+
+#button {
+  position: relative;
+  background-color: orange;
+  border: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#button:after {
+  content: "";
+  background: white;
+  color: black;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#button:hover {
+  background: white;
+  color: black;
+}
+
+#button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 510px;
+  margin-bottom: 0px;
+}
+
+.h-rule {
+  color: grey;
+  width: 80%;
+  text-align: center;
+}
+
+#row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#row h4 {
+  color: orange;
+}
+
+#row p {
+  font-size: 16px;
+}
+
+.cont {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.fa:hover {
+  color: orange;
+}
+
+#footer-line {
+  color: orange;
+  font-size: 30px;
+}
+
+#getmaji {
+  margin-top: 20px;
+}
+
+/*End of help/

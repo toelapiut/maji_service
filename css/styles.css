@@ -1,0 +1,1146 @@
+/* Beginning of header */
+
+
+/* Do NOT touch */
+
+#header {
+  background-image: url('../image/header-background.jpg');
+  height: 550px;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 20%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.jumbotron:hover {
+  transform: rotateY(360deg);
+  transition: 3s;
+}
+
+#logo {
+  width: 30px;
+  height: 30px;
+  text-align: left;
+  -webkit-transition-property: width;
+  -webkit-transition-duration: 5s;
+  transition-property: width;
+  transition-duration: 5s;
+}
+
+#logo::before {
+  transform: rotateY(360deg);
+  transition: 5s;
+  transition-duration: infinite;
+}
+
+#logo:hover {
+  transform: rotateY(3600deg);
+  transition: 5s;
+  transition-duration: infinite;
+}
+
+#welcome {
+  text-decoration: none;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  opacity: 0.2%;
+}
+
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 45px;
+  padding: 5px 15px 0px 15px;
+  color: orange;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.cross {
+  background: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  padding: 5px 15px 0px 15px;
+  padding-top: 1.5%;
+  color: orange;
+  border: 0;
+  font-size: 3em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.menu {
+  z-index: 1000000;
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background: orange;
+  opacity: 1;
+  width: 97.5%;
+}
+
+.menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  list-style-image: none;
+  color: white;
+}
+
+.menu li {
+  display: block;
+  padding: 15px 0 15px 0;
+  border-bottom: #dddddd 1px solid;
+  height: 51px;
+}
+
+.menu li i {
+  margin-top: -25px;
+}
+
+.menu li:hover {
+  display: block;
+  background: white;
+  padding: 15px 0 15px 0;
+  border-bottom: #dddddd 1px solid;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 0px;
+}
+
+.menu ul li a:hover {
+  text-decoration: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 720px) {
+  #welcome-line {
+    margin-top: 50%;
+  }
+}
+
+header {
+  display: inline-block;
+  font-size: 22px;
+}
+
+span {
+  padding-left: 0px;
+}
+
+#welcome-line {
+  font-size: 32px;
+  font-weight: bold;
+  color: orange;
+  opacity: 1;
+}
+
+#body {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: auto;
+  padding: 0px;
+}
+
+.column1 {}
+
+.column2 {}
+
+.column3 {
+  margin-top: 10px;
+}
+
+.column4 {}
+
+.column5 {
+  margin-top: 10px;
+}
+
+.column6 {}
+
+.column7 {
+  margin-top: 300px;
+}
+
+.column8 {
+  margin-top: 400px;
+}
+
+.text1 {
+  color: white;
+  background: orange;
+  font-size: 32px;
+  font-weight: bold;
+  opacity: 1;
+  height: 200px;
+  margin-top: 75%;
+}
+
+
+/* @media (max-width:700px) {
+  .error {
+    color: white;
+    background: orange;
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+  }
+} */
+
+#image1 {
+  opacity: 0.7;
+  transition: 0.8s;
+}
+
+#image1:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#image2 {
+  opacity: 0.7;
+  transition: 0.8s;
+  margin-left: 51.3%;
+}
+
+#image2:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#image3 {
+  opacity: 0.7;
+  transition: 0.8s;
+}
+
+#image3:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.text2 {
+  color: white;
+  background: orange;
+  font-size: 32px;
+  font-weight: bold;
+  opacity: 1;
+  height: 200px;
+  margin-top: 75%;
+  margin-left: -100%;
+  margin-right: 100%;
+}
+
+#footerimg {
+  margin-left: -40%;
+  margin-right: 40%;
+}
+
+#body {
+  border-style: none solid none solid;
+}
+
+.modal-content {
+  color: black;
+}
+
+#modal1 {
+  width: auto;
+}
+
+
+/* End of header */
+
+
+/* Do NOT touch */
+
+
+/*Beginning of help css*/
+
+.help {
+  margin: 0px;
+  padding: 0px;
+}
+
+.help {
+  color: white;
+  font-family: verdana;
+  margin-top: 200px;
+  padding: 20px;
+  width: 100%;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition: .5s;
+}
+
+.help:after {
+  content: '';
+  width: 0px;
+  height: 120%;
+  position: absolute;
+  left: -10%;
+  bottom: 0;
+  background-color: white;
+  transform: skewX(15deg);
+  z-index: -1;
+  transition: .5s;
+}
+
+.help:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.help:hover:after {
+  left: -10%;
+  width: 120%;
+}
+
+.col-container {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+
+.search-bar {
+  margin-left: 35%;
+  width: 25%;
+}
+
+.Help-center {
+  padding-top: 30px;
+}
+
+#button {
+  position: relative;
+  background-color: orange;
+  border: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#button:after {
+  content: "";
+  background: white;
+  color: black;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#button:hover {
+  background: white;
+  color: black;
+}
+
+#button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.h-rule {
+  color: grey;
+  width: 80%;
+  text-align: center;
+}
+
+#row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#row h4 {
+  color: orange;
+}
+
+#row p {
+  font-size: 16px;
+}
+
+.cont {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.fa:hover {
+  color: orange;
+}
+
+#footer-line {
+  color: orange;
+  font-size: 30px;
+}
+
+#getmaji {
+  margin-top: 20px;
+}
+
+
+/*End of help/
+
+
+/*CSS done by Eric Wanjohi...*/
+
+h3#topic {
+  font-size: 30px;
+  color: solid white;
+}
+
+body {
+  background-color: ;
+  margin: 0px;
+  padding: 0px;
+}
+
+#Nlp {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url("../image/NgongL.jpg");
+  background-size: 160px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 505%;
+  left: 16.6%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+#border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px dashed black;
+  border-radius: 50%;
+  transform: scale(1.1);
+  transition: all 5s;
+}
+
+#Nlp:hover #border {
+  animation: borderRotate 10s infinite linear;
+}
+
+@-webkit-keyframes borderRotate {
+  from {
+    transform: rotate(-180deg) scale(1.1);
+  }
+  to {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+#tooltip {
+  display: inline-block;
+  height: 100px;
+  width: 170px;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 1px silver;
+  position: absolute;
+  padding-top: 20px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all .50s;
+  border-style: outset;
+  border-color: black;
+  border: 2px;
+}
+
+#tooltip:before {
+  content: '\25b2';
+  font-size: 20px;
+  color: whitesmoke;
+  position: absolute;
+  top: -17px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#Nlp:hover #tooltip {
+  transform: translate(-50%, 0%);
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*second */
+
+#kamaa {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url('../image/kamaa.jpg');
+  background-size: 160px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 505%;
+  left: 33.2%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+#border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px dashed black;
+  border-radius: 50%;
+  transform: scale(1.1);
+  transition: all 5s;
+}
+
+#kamaa:hover #border {
+  animation: borderRotate 10s infinite linear;
+}
+
+@-webkit-keyframes borderRotate {
+  from {
+    transform: rotate(-180deg) scale(1.1);
+  }
+  to {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+#tooltip {
+  display: inline-block;
+  height: 100px;
+  width: 170px;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 1px silver;
+  position: absolute;
+  padding-top: 20px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all .50s;
+}
+
+#tooltip:before {
+  content: '\25b2';
+  font-size: 20px;
+  color: whitesmoke;
+  position: absolute;
+  top: -17px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#kamaa:hover #tooltip {
+  transform: translate(-50%, 0%);
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*third image*/
+
+#mama {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 150px auto;
+  background-image: url("../image/mama.png");
+  background-size: 160px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 505%;
+  left: 49.8%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+#border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px dashed black;
+  border-radius: 50%;
+  transform: scale(1.1);
+  transition: all 5s;
+}
+
+#mama:hover #border {
+  animation: borderRotate 10s infinite linear;
+}
+
+@-webkit-keyframes borderRotate {
+  from {
+    transform: rotate(-180deg) scale(1.1);
+  }
+  to {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+#tooltip {
+  display: inline-block;
+  height: 100px;
+  width: 170px;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 1px silver;
+  position: absolute;
+  padding-top: 20px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all .50s;
+}
+
+#tooltip:before {
+  content: '\25b2';
+  font-size: 20px;
+  color: whitesmoke;
+  position: absolute;
+  top: -17px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#mama:hover #tooltip {
+  transform: translate(-50%, 0%);
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*fourth image*/
+
+#hanieri {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url("../image/hanieri.jpeg");
+  background-size: 160px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 505%;
+  left: 66.4%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+#border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px dashed black;
+  border-radius: 50%;
+  transform: scale(1.1);
+  transition: all 5s;
+}
+
+#hanieri:hover #border {
+  animation: borderRotate 10s infinite linear;
+}
+
+@-webkit-keyframes borderRotate {
+  from {
+    transform: rotate(-180deg) scale(1.1);
+  }
+  to {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+#tooltip {
+  display: inline-block;
+  height: 100px;
+  width: 170px;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 1px silver;
+  position: absolute;
+  padding-top: 20px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all .50s;
+}
+
+#tooltip:before {
+  content: '\25b2';
+  font-size: 20px;
+  color: whitesmoke;
+  position: absolute;
+  top: -17px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#hanieri:hover #tooltip {
+  transform: translate(-50%, 0%);
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*fifth image*/
+
+#prestige {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url("../image/prestige.jpg");
+  background-size: 160px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 505%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+#border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px dashed black;
+  border-radius: 50%;
+  transform: scale(1.1);
+  transition: all 5s;
+}
+
+#prestige:hover #border {
+  animation: borderRotate 10s infinite linear;
+}
+
+@-webkit-keyframes borderRotate {
+  from {
+    transform: rotate(-180deg) scale(1.1);
+  }
+  to {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+#tooltip {
+  display: inline-block;
+  height: 100px;
+  width: 170px;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 1px silver;
+  position: absolute;
+  padding-top: 20px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all .50s;
+}
+
+#tooltip:before {
+  content: '\25b2';
+  font-size: 20px;
+  color: whitesmoke;
+  position: absolute;
+  top: -17px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#prestige:hover #tooltip {
+  transform: translate(-50%, 0%);
+  opacity: 1;
+  visibility: visible;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin: 0px;
+}
+
+h6 {
+  font-family: arial;
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+  margin: 10px;
+}
+
+#heart {
+  display: inline-block;
+  font-size: 20px;
+  color: tomato;
+  margin: 0px 5px 0px 60px;
+}
+
+#rate {
+  display: inline-block;
+  font-family: arial;
+  font-size: 13px;
+  color: black;
+}
+
+.testimonials {
+  height: 90%;
+  padding: 20px;
+  background-color: orange;
+}
+
+.tests {
+  background-color: white;
+  height: 350px;
+  width: auto;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.h-rule2 {
+  color: black;
+  width: 80%;
+  text-align: center;
+}
+
+
+/*#bigcircle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-image: url(logo.png);
+  background-size: 140%;
+  background-position: center;
+  margin: 25px 45px;
+}*/
+
+
+/* Beginning of header index.html*/
+
+
+/*html, body {
+  font-family: 'Pangolin', cursive;
+  height: 100%;
+}*/
+
+nav a {
+  text-decoration: inherit;
+  margin-left: 30px;
+  line-height: 50px;
+}
+
+#divide {
+  background-image: url("../image/ant-rozetsky-226345.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#signup .input-group {
+  width: 70%;
+  margin-left: 10%;
+  margin-right: 0;
+}
+
+#signup {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  margin-left: 5%;
+  margin-right: 15%;
+  padding-right: 2%;
+  padding-left: 0%;
+}
+
+p#quote {
+  font-size: 150%;
+  font-family: monospace;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 60%;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15%;
+  width: 70%;
+  height: 200%;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-bottom: 20%;
+}
+
+
+/* End of header */
+
+
+/* start of sign up styles*/
+
+h1#credentials {
+  font-style: italic;
+  border-radius: 25px;
+}
+
+#button {
+  text-align: center;
+}
+
+container-fluid {
+  text-align: center;
+}
+
+
+/* end of sign up styles */
+
+
+/*start of map styles*/
+
+h1#majiestimate {
+  /*text-align: center;*/
+  text-decoration: overline;
+  margin-left: 10%;
+}
+
+#formitems {
+  border-width: 100%;
+  height: 35%;
+  border-style: outset;
+  margin-top: 1%;
+  padding-left: 4%;
+  margin-bottom: 5%;
+  padding-bottom: 2%;
+}
+
+select#locations {
+  width: 353px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 8px;
+  font-family: Cursive;
+  line-height: 1;
+  border-radius: 10px;
+  background-color: #182a47;
+  color: white;
+  font-size: 20px;
+  -webkit-appearance: none;
+  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  outline: none
+}
+
+select#litre {
+  width: 353px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 8px;
+  font-family: Cursive;
+  line-height: 1;
+  border-radius: 10px;
+  background-color: #182a47;
+  color: white;
+  font-size: 20px;
+  -webkit-appearance: none;
+  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+select#time {
+  width: 353px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 8px;
+  font-family: Cursive;
+  line-height: 1;
+  border-radius: 10px;
+  background-color: #182a47;
+  color: white;
+  font-size: 20px;
+  -webkit-appearance: none;
+  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+h3#mapheading {
+  margin-top: 0;
+  padding-top: 2%;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px aqua;
+}
+
+#map {
+  margin-left: 10%;
+  border-style: ridge;
+  border-width: 15px;
+  margin-top: 2%;
+  border-radius: 5%;
+}
+
+.maps {
+  background-color: #182a47;
+}
+
+#show-price {
+  display: none;
+}
+
+#body {
+  width: auto;
+}
+
+#pic1 {
+  width: 30%;
+  height: 20%;
+  border-radius: 100%;
+}
+
+#about {
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+}
+
+#button1 {
+  width: auto;
+  background-color: orange;
+  color: white;
+  border: 2px;
+  border-style: solid solid solid solid;
+  border-color: white;
+}
+
+#button1:hover {
+  width: auto;
+  background-color: white;
+  color: black;
+}
+
+#button2 {
+  width: auto;
+  background-color: orange;
+  color: white;
+  border: 2px;
+  border-style: solid solid solid solid;
+  border-color: white;
+  margin-left: 20px;
+}
+
+#button2:hover {
+  width: auto;
+  background-color: white;
+  color: black;
+}
+
+#button3 {
+  width: auto;
+  background-color: orange;
+  color: white;
+  border: 2px;
+  border-style: solid solid solid solid;
+  border-color: white;
+  margin-left: 20px;
+}
+
+#button1:hover {
+  width: auto;
+  background-color: white;
+  color: black;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+#about-us-p {
+  font-size:22px;
+}
+
+/*Please comment after editing anything in this css, THANK YOU*/

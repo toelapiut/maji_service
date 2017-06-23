@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="image/waba-favicon.png" type="image/gif" sizes="16x16">
+  <link href="css/styles3.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts2.js"></script>
+  <title>Get Maji | Estimate</title>
+</head>
+
+<body id="body">
+<!-- estimate section -->
+  <section>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-5" id="formitems">
+        <h1 id="majiestimate">Maji Estimate</h1>
+        <form id="location">
+          <h3>Select your locality</h3>
+          <select class="form-control" id="locations">
+             <option>--- Select the locality you stay in ---</option>
+             <option value="Donholm">Donholm</option>
+             <option value="Buruburu 1 2 4">Buruburu 1 2 4</option>
+             <option value="Umoja 1">Umoja 1</option>
+             <option value="Umoja Innercore">Umoja Innercore</option>
+             <optiosn value="Githurai">Githurai</option>
+             <option value="Karen">Karen</option>
+             <option value="Kileleshwa">Kileleshwa</option>
+             <option value="Kawangware">Kawangware</option>
+             <option value="Ngara">Ngara</option>
+             <option value="Eastleigh">Eastleigh</option>
+             <option value="Kikuyu">Kikuyu</option>
+             <option value="Kibera">Kibera </option>
+             <option value="Langata">Langata</option>
+             <option value="Westlands">Westlands</option>
+             <option value="Parklands">Parklands</option>
+             <option value="Embakasi">Embakasi</option>
+          </select>
+          <h3>Required Litres</h3>
+          <select class="form-control" id="litre">
+             <option>--- Select the Quantity of water you need ---</option>
+             <option value="120">100 litres </option>
+             <option value="160">200 litres</option>
+             <option value="350">500 litres</option>
+             <option value="700">1000 litres</option>
+             <option value="1200">2000 litres</option>
+             <option value="2500">3000 litres</option>
+             <option value="3800">5000 litres</option>
+          </select>
+          <h3>Time of Delivery</h3>
+          <select class="form-control" id="time">
+            <option>--- Select the Time you want it delivered ---</option>
+            <option value="50">5:00am - 9:00am </option>
+            <option value="60">9:00am - 1:00pm</option>
+            <option value="65">1:00pm - 5:00pm</option>
+            <option value="70">5:00pm - 9:00pm</option>
+        </select><br>
+        <button type="submit" class="btn btn-primary">Expected Water Price Is:</button>
+    </form>
+      <div id="show-price"><br>
+          <p>The price expected for this option is: Ksh <span id="price"></span> Kindly contact the supplier provided</p>
+      </div>
+      </div>
+      <!-- where suppliers will be displayed -->
+      <div class="peopledetail">
+      <div class="col-md-5" id="show-suppliers">
+       <h1>Supplier Details</h1>
+       <h3>Name:</h3><span id="Suppliername"></span></p>
+       <img src="image/profile1.jpg" class="profiles"><span id="pic1"></span>
+       <!--<img src="image/profile2.jpg" class="profiles"><span id="pic2"></span>
+       <img src="image/profile3.jpg" class="profiles"><span  id="pic3"></span>
+       <img src="image/profile4.jpg" class="profiles"><span id="pic4"></span>
+       <img src="image/profile5.jpg" class="profiles"><span id="pic5"></span>
+       <img src="image/profile6.jpg" class="profiles"><span id="pic6"></span>
+       <img src="image/profile7.jpg" class="profiles"><span id="pic7"></span>
+       <img src="image/profile8.jpg" class="profiles"><span id="pic8"></span>
+       <img src="image/profile9.jpg" class="profiles"><span id="pic9"></span>
+       <img src="image/profile10.jpg" class="profiles"><span id="pic10"></span>
+       <img src="image/profile11.jpg" class="profiles"><span id="pic11"></span>
+       <img src="image/profile12.jpg" class="profiles"><span id="pic12"></span>
+       <img src="image/profile13.jpg" class="profiles"><span id="pic13"></span>
+       <img src="image/profile14.jpg" class="profiles"><span id="pic14"></span>
+       <img src="image/profile15.jpg" class="profiles"><span id="pic15"></span>-->
+       <h3>Contacts:</h3><span id="Suppliercontacts"></span>
+       <h3>Alternative Contact:</h3><span id="Supplieraltcontact"></span>
+      </div></div>
+      <!-- the end of display of results -->
+
+    </div> <!-- end of row-->
+      <hr>
+      <div class="maps">
+        <h3 id="mapheading">Maps showing the areas where the water tanks are stationed</h3>
+        <div id="map" style="height: 500px; width: 80%; text-center"></div>
+        <script type="text/javascript">
+          var locations = [
+            ['Langata', -1.364218, 36.715959, 12],
+            ['Umoja', -1.278420, 36.902318, 11],
+            ['Kibera', -1.312463, 36.787309, 10],
+            ['Kikuyu', -1.260388, 36.680043, 9],
+            ['Kawangware', -1.278906, 36.748914, 8],
+            ['Kileleshwa', -1.278293, 36.783852, 7],
+            ['Karen', -1.312735, 36.682366, 6],
+            ['Embakasi', -1.333094, 36.903322, 5],
+            ['Donholm', -1.297982, 36.896208, 4],
+            ['Ngara', -1.278092, 36.826155, 3],
+            ['Westlands', -1.269033, 36.810945, 2],
+            ['Githurai', -1.204358, 36.910858, 1]
+          ];
+            var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: new google.maps.LatLng(-1.291757, 36.823351),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          });
+
+          var infowindow = new google.maps.InfoWindow();
+
+          var marker, i;
+
+          for (i = 0; i < locations.length; i++) {
+            marker = new google.maps.Marker({
+              position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+              map: map
+            });
+
+            google.maps.event.addListener(marker, 'click', (function(marker, i) {
+              return function() {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+              }
+            })(marker, i));
+          }
+        </script>
+      </div>
+  </section>
+  <!-- end estimation -->
+
+  <!-- footer section -->
+  <section>
+
+  </section>
+  <!-- end footer -->
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
