@@ -7,6 +7,8 @@
   background-image: url('../image/header-background.jpg');
   height: 550px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .jumbotron {
